@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>User-List</h2>
+  <ul (click) = "onSelect(users)" *ngFor = "let user of users">
+    <li >
+     <span>{{user.id}}</span> {{user.name}}
+    </li>
+  </ul>
+</div>
